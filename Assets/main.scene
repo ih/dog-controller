@@ -84,7 +84,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 6}
+      - {localId: 4}
       - __class: MeshRenderer
         name: ""
         guid: {a: 11838541427319079906, b: 12467985967897152417}
@@ -103,35 +103,12 @@ entities:
         castShadow: false
     layer: 0
   - __class: Entity
-    name: Audio Player
-    guid: {a: 8235667433872204950, b: 2187388130434253207}
-    scene: {localId: 1}
-    selfvisible: true
-    components:
-      - {localId: 67}
-      - __class: JSScriptComponent
-        name: AudioComponent
-        guid: {a: 14790922547364385703, b: 15541442348740470156}
-        enabled: true
-        path: js/AudioComponent.js
-        properties:
-          __class: Map
-          autoPlay: false
-          duration: 1567
-          isPreview: true
-          loopAmount: 1
-          mute: false
-          playMode: Once
-          resPath: audio/8b541da9-3ee3-892d-036c-a63cc220bbe6.mp3
-          volume: 100
-    layer: 0
-  - __class: Entity
     name: VR Headset Free Model
     guid: {a: 1030448186649809719, b: 17614385251761306754}
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 7}
+      - {localId: 5}
     layer: 0
   - __class: Entity
     name: Dog
@@ -139,7 +116,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 13}
+      - {localId: 11}
     layer: 0
   - __class: Entity
     name: SkeletonAndRenderRoot
@@ -147,7 +124,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 8}
+      - {localId: 6}
     layer: 0
   - __class: Entity
     name: Sketchfab_model
@@ -155,7 +132,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 9}
+      - {localId: 7}
     layer: 0
   - __class: Entity
     name: Collada visual scene group
@@ -163,7 +140,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 10}
+      - {localId: 8}
     layer: 0
   - __class: Entity
     name: Body
@@ -171,7 +148,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 11}
+      - {localId: 9}
     layer: 0
   - __class: Entity
     name: defaultMaterial
@@ -179,7 +156,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 12}
+      - {localId: 10}
       - __class: MeshRenderer
         name: mesh0_renderer
         guid: {a: 15009348867373329175, b: 18366502149249870225}
@@ -203,7 +180,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 14}
+      - {localId: 12}
       - __class: Animator
         name: ""
         guid: {a: 18253021821823109874, b: 11789657610813830072}
@@ -223,7 +200,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 15}
+      - {localId: 13}
     layer: 0
   - __class: Entity
     name: WALK.fbx
@@ -231,7 +208,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 16}
+      - {localId: 14}
     layer: 0
   - __class: Entity
     name: Object_2
@@ -239,7 +216,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 17}
+      - {localId: 15}
     layer: 0
   - __class: Entity
     name: RootNode
@@ -247,7 +224,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 18}
+      - {localId: 16}
     layer: 0
   - __class: Entity
     name: CINEMA_4D_Editor
@@ -255,7 +232,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 19}
+      - {localId: 17}
     layer: 0
   - __class: Entity
     name: Object_5
@@ -263,7 +240,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 20}
+      - {localId: 18}
     layer: 0
   - __class: Entity
     name: OctaneCamera_1
@@ -271,7 +248,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 21}
+      - {localId: 19}
     layer: 0
   - __class: Entity
     name: Object_7
@@ -279,7 +256,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 22}
+      - {localId: 20}
     layer: 0
   - __class: Entity
     name: OctaneCamera
@@ -287,7 +264,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 23}
+      - {localId: 21}
     layer: 0
   - __class: Entity
     name: Object_9
@@ -295,7 +272,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 24}
+      - {localId: 22}
     layer: 0
   - __class: Entity
     name: SPOT_DOG
@@ -303,7 +280,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 25}
+      - {localId: 23}
     layer: 0
   - __class: Entity
     name: SPOT_BODY
@@ -311,7 +288,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 26}
+      - {localId: 24}
     layer: 0
   - __class: Entity
     name: SPOT_BODY__0
@@ -319,7 +296,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 27}
+      - {localId: 25}
       - __class: MeshRenderer
         name: mesh0_renderer
         guid: {a: 6938534173981923442, b: 11238379083856088482}
@@ -343,7 +320,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 28}
+      - {localId: 26}
     layer: 0
   - __class: Entity
     name: Object_14
@@ -351,7 +328,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 29}
+      - {localId: 27}
     layer: 0
   - __class: Entity
     name: _rootJoint
@@ -359,7 +336,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 30}
+      - {localId: 28}
     layer: 0
   - __class: Entity
     name: Joint_1_00
@@ -367,7 +344,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 31}
+      - {localId: 29}
     layer: 0
   - __class: Entity
     name: Joint_2_01
@@ -375,7 +352,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 32}
+      - {localId: 30}
     layer: 0
   - __class: Entity
     name: Joint_3_02
@@ -383,7 +360,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 33}
+      - {localId: 31}
     layer: 0
   - __class: Entity
     name: Object_17
@@ -391,7 +368,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 34}
+      - {localId: 32}
       - __class: SkinMeshRenderer
         name: mesh1_renderer
         guid: {a: 1891733649400624573, b: 5200431815897780924}
@@ -421,13 +398,13 @@ entities:
               guid: {a: 12920368737381307630, b: 8078518534137079214}
               invBindPosMatrix: {__class: Matrix4x4f, values: [1, -1e-15, -1e-15, 0, 1e-15, 0.2856379, 0.9583376, 0, 1e-15, -0.9583376, 0.2856379, 0, 41.73327, 31.56518, -182.5503, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
-              jointTransform: {localId: 31}
+              jointTransform: {localId: 29}
             - __class: Joint
               name: Joint_2_01
               guid: {a: 6576414335608951014, b: 12917833841967424385}
               invBindPosMatrix: {__class: Matrix4x4f, values: [1, 1e-15, -1e-15, 0, 1e-15, -0.7662309, 0.6425653, 0, -1e-15, -0.6425653, -0.7662309, 0, 41.73327, 95.08382, -6.729242, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
-              jointTransform: {localId: 32}
+              jointTransform: {localId: 30}
           positionOnly: false
           useTangent: true
     layer: 0
@@ -437,7 +414,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 35}
+      - {localId: 33}
     layer: 0
   - __class: Entity
     name: Root
@@ -445,7 +422,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 36}
+      - {localId: 34}
     layer: 0
   - __class: Entity
     name: REAR_R_LEG
@@ -453,7 +430,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 37}
+      - {localId: 35}
     layer: 0
   - __class: Entity
     name: Object_23
@@ -461,7 +438,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 38}
+      - {localId: 36}
     layer: 0
   - __class: Entity
     name: _rootJoint
@@ -469,7 +446,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 39}
+      - {localId: 37}
     layer: 0
   - __class: Entity
     name: Joint_1_2_03
@@ -477,7 +454,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 40}
+      - {localId: 38}
     layer: 0
   - __class: Entity
     name: Joint_2_2_04
@@ -485,7 +462,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 41}
+      - {localId: 39}
     layer: 0
   - __class: Entity
     name: Joint_3_2_05
@@ -493,7 +470,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 42}
+      - {localId: 40}
     layer: 0
   - __class: Entity
     name: Object_26
@@ -501,7 +478,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 43}
+      - {localId: 41}
       - __class: SkinMeshRenderer
         name: mesh2_renderer
         guid: {a: 6651619671875112630, b: 8368412999552752051}
@@ -531,13 +508,13 @@ entities:
               guid: {a: 11909902505397401310, b: 7877650356573418406}
               invBindPosMatrix: {__class: Matrix4x4f, values: [1, 1e-15, 1e-15, 0, -1e-15, 0.3189429, 0.9477739, 0, -1e-15, -0.9477739, 0.3189429, 0, 44, -143.6737, -126.9851, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
-              jointTransform: {localId: 40}
+              jointTransform: {localId: 38}
             - __class: Joint
               name: Joint_2_2_04
               guid: {a: 6576728123957134373, b: 16136841569833097635}
               invBindPosMatrix: {__class: Matrix4x4f, values: [1, -1e-15, 1e-15, 0, -1e-15, -0.8319646, 0.5548288, 0, 1e-15, -0.5548288, -0.8319646, 0, 44, -4.45052, -147.6109, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
-              jointTransform: {localId: 41}
+              jointTransform: {localId: 39}
           positionOnly: false
           useTangent: true
     layer: 0
@@ -547,7 +524,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 44}
+      - {localId: 42}
     layer: 0
   - __class: Entity
     name: Root_2
@@ -555,7 +532,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 45}
+      - {localId: 43}
     layer: 0
   - __class: Entity
     name: REAR_LEG
@@ -563,7 +540,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 46}
+      - {localId: 44}
     layer: 0
   - __class: Entity
     name: Object_32
@@ -571,7 +548,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 47}
+      - {localId: 45}
     layer: 0
   - __class: Entity
     name: _rootJoint
@@ -579,7 +556,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 48}
+      - {localId: 46}
     layer: 0
   - __class: Entity
     name: Root_3_06
@@ -587,7 +564,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 49}
+      - {localId: 47}
     layer: 0
   - __class: Entity
     name: Joint_1_3_07
@@ -595,7 +572,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 50}
+      - {localId: 48}
     layer: 0
   - __class: Entity
     name: Joint_2_3_08
@@ -603,7 +580,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 51}
+      - {localId: 49}
     layer: 0
   - __class: Entity
     name: Joint_3_3_09
@@ -611,7 +588,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 52}
+      - {localId: 50}
     layer: 0
   - __class: Entity
     name: Object_35
@@ -619,7 +596,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 53}
+      - {localId: 51}
       - __class: SkinMeshRenderer
         name: mesh3_renderer
         guid: {a: 9747255799963209560, b: 5146672730010972569}
@@ -649,13 +626,13 @@ entities:
               guid: {a: 8379444716141279026, b: 4117025926176303014}
               invBindPosMatrix: {__class: Matrix4x4f, values: [1, 1e-15, 1e-15, 0, -1e-15, 0.7674721, 0.6410823, 0, -1e-15, -0.6410823, 0.7674721, 0, -43.99998, -188.8679, -33.10958, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
-              jointTransform: {localId: 50}
+              jointTransform: {localId: 48}
             - __class: Joint
               name: Joint_2_3_08
               guid: {a: 1894848225237163035, b: 16158775218883463091}
               invBindPosMatrix: {__class: Matrix4x4f, values: [1, -1e-15, 1e-15, 0, -1e-15, -0.4708336, 0.8822221, 0, 1e-15, -0.8822221, -0.4708336, 0, -43.99998, -96.82072, -171.7041, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
-              jointTransform: {localId: 51}
+              jointTransform: {localId: 49}
           positionOnly: false
           useTangent: true
     layer: 0
@@ -665,7 +642,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 54}
+      - {localId: 52}
     layer: 0
   - __class: Entity
     name: FRONT_LEG
@@ -673,7 +650,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 55}
+      - {localId: 53}
     layer: 0
   - __class: Entity
     name: Object_41
@@ -681,7 +658,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 56}
+      - {localId: 54}
     layer: 0
   - __class: Entity
     name: _rootJoint
@@ -689,7 +666,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 57}
+      - {localId: 55}
     layer: 0
   - __class: Entity
     name: Joint_2_4_010
@@ -697,7 +674,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 58}
+      - {localId: 56}
     layer: 0
   - __class: Entity
     name: Joint_3_4_011
@@ -705,7 +682,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 59}
+      - {localId: 57}
     layer: 0
   - __class: Entity
     name: Joint_4_012
@@ -713,7 +690,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 60}
+      - {localId: 58}
     layer: 0
   - __class: Entity
     name: Object_44
@@ -721,7 +698,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 61}
+      - {localId: 59}
       - __class: SkinMeshRenderer
         name: mesh4_renderer
         guid: {a: 13712949860694566883, b: 17817652374990264964}
@@ -751,13 +728,13 @@ entities:
               guid: {a: 16231035130105279533, b: 11710429832753013924}
               invBindPosMatrix: {__class: Matrix4x4f, values: [1, -1e-15, 1e-15, 0, -1e-15, 0.5919744, 0.8059568, 0, -1e-15, -0.8059568, 0.5919744, 0, -42.93668, -32.01736, -182.6691, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
-              jointTransform: {localId: 58}
+              jointTransform: {localId: 56}
             - __class: Joint
               name: Joint_3_4_011
               guid: {a: 13857414323493930909, b: 11286110860331752383}
               invBindPosMatrix: {__class: Matrix4x4f, values: [1, 1.490116e-08, 1e-15, 0, 9.297118e-09, -0.623919, 0.781489, 0, 1.164509e-08, -0.781489, -0.623919, 0, -42.93668, 78.39775, -54.31549, 1]}
               boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
-              jointTransform: {localId: 59}
+              jointTransform: {localId: 57}
           positionOnly: false
           useTangent: true
     layer: 0
@@ -767,7 +744,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 62}
+      - {localId: 60}
     layer: 0
   - __class: Entity
     name: FRONLT_R_LEG_CONTROL
@@ -775,7 +752,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 63}
+      - {localId: 61}
     layer: 0
   - __class: Entity
     name: FRONT_L_LEG_CONTROL
@@ -783,7 +760,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 64}
+      - {localId: 62}
     layer: 0
   - __class: Entity
     name: REAR_R_LEG_CONTROL
@@ -791,7 +768,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 65}
+      - {localId: 63}
     layer: 0
   - __class: Entity
     name: REAR_L_LEG_CONTROL
@@ -799,7 +776,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 66}
+      - {localId: 64}
     layer: 0
   - __class: Entity
     name: 2D Background Camera
@@ -807,7 +784,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 68}
+      - {localId: 65}
       - __class: Camera
         name: ""
         guid: {a: 12844801103767575591, b: 739273861086767507}
@@ -836,7 +813,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 69}
+      - {localId: 66}
       - __class: IFLayer2d
         name: ""
         guid: {a: 3480748052330937595, b: 3992514799963553155}
@@ -880,7 +857,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 70}
+      - {localId: 67}
     layer: 2
   - __class: Entity
     name: Portrait
@@ -888,7 +865,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 71}
+      - {localId: 68}
       - __class: IFSprite2d
         name: ""
         guid: {a: 7584258196120673598, b: 2669253975240545163}
@@ -939,7 +916,7 @@ entities:
     scene: {localId: 1}
     selfvisible: true
     components:
-      - {localId: 72}
+      - {localId: 69}
       - __class: IFSprite2d
         name: ""
         guid: {a: 10323648713411390607, b: 13991915582773005967}
@@ -1017,17 +994,7 @@ localOrientation: {w: 0.6123723, x: -0.3535534, y: -0.6123725, z: -0.3535534}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &5
-name: ""
-guid: {a: 2904245334805155805, b: 15883466900902509211}
-enabled: true
-localPosition: {x: 0, y: 0, z: 0}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &6
+--- !Transform &4
 name: ""
 guid: {a: 3984775155397154446, b: 7869773533642419592}
 enabled: true
@@ -1037,7 +1004,7 @@ localOrientation: {w: 1, x: 0, y: 0, z: 0}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &7
+--- !Transform &5
 name: ""
 guid: {a: 15078647570650015319, b: 3298202167743571646}
 enabled: true
@@ -1045,17 +1012,43 @@ localPosition: {x: 70, y: -50, z: -300}
 localScale: {x: 2, y: 2, z: 2}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 children:
-  - {localId: 8}
+  - {localId: 6}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &8
+--- !Transform &6
 name: RootNode
 guid: {a: 309157565314682427, b: 17437221561940351669}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 5.007272, y: 5.007272, z: 5.007272}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 5}
+children:
+  - {localId: 7}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &7
+name: Sketchfab_model
+guid: {a: 13928781891240375238, b: 15479148490062709428}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.7071068, x: -0.7071068, y: 0, z: 0}
+parent: {localId: 6}
+children:
+  - {localId: 8}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &8
+name: Collada visual scene group
+guid: {a: 9028298488159938700, b: 2535609649546328766}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.7071068, x: 0.7071068, y: 0, z: 0}
 parent: {localId: 7}
 children:
   - {localId: 9}
@@ -1063,12 +1056,12 @@ mobility:
   __class: Mobility
   value: Dynamic
 --- !Transform &9
-name: Sketchfab_model
-guid: {a: 13928781891240375238, b: 15479148490062709428}
+name: Body
+guid: {a: 12920199232775802616, b: 8641118101566503302}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 0.7071068, x: -0.7071068, y: 0, z: 0}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 8}
 children:
   - {localId: 10}
@@ -1076,43 +1069,17 @@ mobility:
   __class: Mobility
   value: Dynamic
 --- !Transform &10
-name: Collada visual scene group
-guid: {a: 9028298488159938700, b: 2535609649546328766}
-enabled: true
-localPosition: {x: 0, y: 0, z: 0}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 0.7071068, x: 0.7071068, y: 0, z: 0}
-parent: {localId: 9}
-children:
-  - {localId: 11}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &11
-name: Body
-guid: {a: 12920199232775802616, b: 8641118101566503302}
-enabled: true
-localPosition: {x: 0, y: 0, z: 0}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 10}
-children:
-  - {localId: 12}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &12
 name: defaultMaterial
 guid: {a: 11406247630492417751, b: 12273691347872658821}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 11}
+parent: {localId: 9}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &13
+--- !Transform &11
 name: ""
 guid: {a: 236063023740698353, b: 5365709376602459270}
 enabled: true
@@ -1120,17 +1087,43 @@ localPosition: {x: 5.302668, y: -16.31967, z: -1.727829e-06}
 localScale: {x: 5, y: 5, z: 5}
 localOrientation: {w: -1.629207e-07, x: 0, y: 1, z: 0}
 children:
-  - {localId: 14}
+  - {localId: 12}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &14
+--- !Transform &12
 name: RootNode
 guid: {a: 6577349514287495735, b: 15274096531598420153}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 11}
+children:
+  - {localId: 13}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &13
+name: Sketchfab_model
+guid: {a: 14577965333125611625, b: 4544591493994755976}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.7071068, x: -0.7071068, y: 0, z: 0}
+parent: {localId: 12}
+children:
+  - {localId: 14}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &14
+name: WALK.fbx
+guid: {a: 15943281930367561934, b: 16242627344040258998}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 0.01, y: 0.01, z: 0.01}
+localOrientation: {w: 0.7071068, x: 0.7071068, y: 0, z: 0}
 parent: {localId: 13}
 children:
   - {localId: 15}
@@ -1138,12 +1131,12 @@ mobility:
   __class: Mobility
   value: Dynamic
 --- !Transform &15
-name: Sketchfab_model
-guid: {a: 14577965333125611625, b: 4544591493994755976}
+name: Object_2
+guid: {a: 13063864532023799060, b: 17798075565721009295}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 0.7071068, x: -0.7071068, y: 0, z: 0}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 14}
 children:
   - {localId: 16}
@@ -1151,25 +1144,28 @@ mobility:
   __class: Mobility
   value: Dynamic
 --- !Transform &16
-name: WALK.fbx
-guid: {a: 15943281930367561934, b: 16242627344040258998}
-enabled: true
-localPosition: {x: 0, y: 0, z: 0}
-localScale: {x: 0.01, y: 0.01, z: 0.01}
-localOrientation: {w: 0.7071068, x: 0.7071068, y: 0, z: 0}
-parent: {localId: 15}
-children:
-  - {localId: 17}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &17
-name: Object_2
-guid: {a: 13063864532023799060, b: 17798075565721009295}
+name: RootNode
+guid: {a: 9749616656104428032, b: 17119670490314609542}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 15}
+children:
+  - {localId: 17}
+  - {localId: 19}
+  - {localId: 21}
+  - {localId: 23}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &17
+name: CINEMA_4D_Editor
+guid: {a: 14647269154084005116, b: 12806321027793706892}
+enabled: true
+localPosition: {x: 506.2201, y: 215.7806, z: 382.6781}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.3185035, x: -0.09738053, y: 0.9423319, z: -0.03291414}
 parent: {localId: 16}
 children:
   - {localId: 18}
@@ -1177,37 +1173,32 @@ mobility:
   __class: Mobility
   value: Dynamic
 --- !Transform &18
-name: RootNode
-guid: {a: 9749616656104428032, b: 17119670490314609542}
+name: Object_5
+guid: {a: 9819970909411412795, b: 16194352972594596030}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 17}
-children:
-  - {localId: 19}
-  - {localId: 21}
-  - {localId: 23}
-  - {localId: 25}
 mobility:
   __class: Mobility
   value: Dynamic
 --- !Transform &19
-name: CINEMA_4D_Editor
-guid: {a: 14647269154084005116, b: 12806321027793706892}
+name: OctaneCamera_1
+guid: {a: 16883427183547332160, b: 584416048973808261}
 enabled: true
-localPosition: {x: 506.2201, y: 215.7806, z: 382.6781}
-localScale: {x: 0.9999999, y: 1, z: 1}
-localOrientation: {w: 0.3185035, x: -0.09738053, y: 0.9423319, z: -0.03291414}
-parent: {localId: 18}
+localPosition: {x: 1065.326, y: 286.3678, z: 1206.777}
+localScale: {x: 1, y: 1, z: 0.9999999}
+localOrientation: {w: 0.3675506, x: -0.05190152, y: 0.9283267, z: -0.02054927}
+parent: {localId: 16}
 children:
   - {localId: 20}
 mobility:
   __class: Mobility
   value: Dynamic
 --- !Transform &20
-name: Object_5
-guid: {a: 9819970909411412795, b: 16194352972594596030}
+name: Object_7
+guid: {a: 14503810854950598150, b: 11268711959260328115}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
@@ -1217,21 +1208,21 @@ mobility:
   __class: Mobility
   value: Dynamic
 --- !Transform &21
-name: OctaneCamera_1
-guid: {a: 16883427183547332160, b: 584416048973808261}
+name: OctaneCamera
+guid: {a: 10830822801348875225, b: 15457343627836381569}
 enabled: true
-localPosition: {x: 1065.326, y: 286.3678, z: 1206.777}
-localScale: {x: 1, y: 1, z: 0.9999999}
-localOrientation: {w: 0.3675506, x: -0.05190152, y: 0.9283267, z: -0.02054927}
-parent: {localId: 18}
+localPosition: {x: -1220.751, y: 249.7888, z: -2476.77}
+localScale: {x: 0.9999998, y: 1, z: 1}
+localOrientation: {w: 0.8485787, x: 0.009524133, y: -0.5287626, z: -0.01528468}
+parent: {localId: 16}
 children:
   - {localId: 22}
 mobility:
   __class: Mobility
   value: Dynamic
 --- !Transform &22
-name: Object_7
-guid: {a: 14503810854950598150, b: 11268711959260328115}
+name: Object_9
+guid: {a: 11476560355385244357, b: 422284457100221627}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
@@ -1241,110 +1232,112 @@ mobility:
   __class: Mobility
   value: Dynamic
 --- !Transform &23
-name: OctaneCamera
-guid: {a: 10830822801348875225, b: 15457343627836381569}
-enabled: true
-localPosition: {x: -1220.751, y: 249.7888, z: -2476.77}
-localScale: {x: 0.9999999, y: 1, z: 1}
-localOrientation: {w: 0.8485787, x: 0.009524133, y: -0.5287626, z: -0.01528468}
-parent: {localId: 18}
-children:
-  - {localId: 24}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &24
-name: Object_9
-guid: {a: 11476560355385244357, b: 422284457100221627}
-enabled: true
-localPosition: {x: 0, y: 0, z: 0}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 23}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &25
 name: SPOT_DOG
 guid: {a: 9242027190207899530, b: 6449466836733959830}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 18}
+parent: {localId: 16}
 children:
-  - {localId: 26}
+  - {localId: 24}
+  - {localId: 61}
+  - {localId: 62}
   - {localId: 63}
   - {localId: 64}
-  - {localId: 65}
-  - {localId: 66}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &26
+--- !Transform &24
 name: SPOT_BODY
 guid: {a: 16451351800868383977, b: 8561310175730716333}
 enabled: true
 localPosition: {x: -0.5538774, y: 150, z: 9.056977}
-localScale: {x: 1, y: 0.9999999, z: 1}
-localOrientation: {w: 0.9981332, x: 0.001465103, y: 8.962284e-05, z: -0.0610575}
-parent: {localId: 25}
+localScale: {x: 1, y: 0.9999998, z: 1}
+localOrientation: {w: 0.9981332, x: 0.001465103, y: 8.962282e-05, z: -0.0610575}
+parent: {localId: 23}
 children:
-  - {localId: 27}
-  - {localId: 28}
-  - {localId: 37}
-  - {localId: 46}
-  - {localId: 55}
+  - {localId: 25}
+  - {localId: 26}
+  - {localId: 35}
+  - {localId: 44}
+  - {localId: 53}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &27
+--- !Transform &25
 name: SPOT_BODY__0
 guid: {a: 14143345821676936018, b: 424460161701130631}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 26}
+parent: {localId: 24}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &28
+--- !Transform &26
 name: FRONT_R_LEG
 guid: {a: 4630662401078815456, b: 11016987921124161727}
 enabled: true
 localPosition: {x: -41.85552, y: -0.5634431, z: 89.78407}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 0.9725741, x: 0.2325932, y: 1e-15, z: 1e-15}
-parent: {localId: 26}
+parent: {localId: 24}
 children:
-  - {localId: 29}
+  - {localId: 27}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &29
+--- !Transform &27
 name: Object_14
 guid: {a: 15006385278442382960, b: 16207015953034883004}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 28}
+parent: {localId: 26}
 children:
-  - {localId: 30}
+  - {localId: 28}
+  - {localId: 32}
+  - {localId: 33}
   - {localId: 34}
-  - {localId: 35}
-  - {localId: 36}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &30
+--- !Transform &28
 name: _rootJoint
 guid: {a: 17385447442567937158, b: 2157916007010797699}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 27}
+children:
+  - {localId: 29}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &29
+name: Joint_1_00
+guid: {a: 16375948207874699821, b: 5014128289521202611}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.5940157, x: -0.8025156, y: -0.001230916, z: 0.05579037}
+parent: {localId: 28}
+children:
+  - {localId: 30}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &30
+name: Joint_2_01
+guid: {a: 12704606534474625253, b: 10502765417377681073}
+enabled: true
+localPosition: {x: -7.105427e-15, y: 1.421085e-14, z: -92.6067}
+localScale: {x: 1, y: 0.9999999, z: 0.9999999}
+localOrientation: {w: 0.8465236, x: -0.5323511, y: 1e-15, z: 1e-15}
 parent: {localId: 29}
 children:
   - {localId: 31}
@@ -1352,111 +1345,111 @@ mobility:
   __class: Mobility
   value: Dynamic
 --- !Transform &31
-name: Joint_1_00
-guid: {a: 16375948207874699821, b: 5014128289521202611}
-enabled: true
-localPosition: {x: 0, y: 0, z: 0}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 0.5940158, x: -0.8025156, y: -0.001230922, z: 0.05579036}
-parent: {localId: 30}
-children:
-  - {localId: 32}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &32
-name: Joint_2_01
-guid: {a: 12704606534474625253, b: 10502765417377681073}
-enabled: true
-localPosition: {x: -7.105427e-15, y: 1.421085e-14, z: -92.6067}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 0.8465236, x: -0.5323511, y: 1e-15, z: 1e-15}
-parent: {localId: 31}
-children:
-  - {localId: 33}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &33
 name: Joint_3_02
 guid: {a: 18323709467343813960, b: 14759851876582742692}
 enabled: true
 localPosition: {x: 2.131628e-14, y: 5.684342e-14, z: -109.9381}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: -1e-15, y: 1e-15, z: -1e-15}
-parent: {localId: 32}
+parent: {localId: 30}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &34
+--- !Transform &32
 name: Object_17
 guid: {a: 2540326289278943769, b: 13024069804560508830}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 29}
+parent: {localId: 27}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &35
+--- !Transform &33
 name: Object_16
 guid: {a: 14649535933807963110, b: 11433018798091383716}
 enabled: true
 localPosition: {x: -41.73327, y: 165.9286, z: 82.39339}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 0.9725742, x: 0.2325931, y: -1e-15, z: -1e-15}
-parent: {localId: 29}
+parent: {localId: 27}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &36
+--- !Transform &34
 name: Root
 guid: {a: 6863776322470292913, b: 1234616361395741349}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 0.9725741, x: -0.2325932, y: 1e-15, z: -1e-15}
-parent: {localId: 29}
+parent: {localId: 27}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &37
+--- !Transform &35
 name: REAR_R_LEG
 guid: {a: 15586659499341908417, b: 15847635611719123113}
 enabled: true
 localPosition: {x: -44.12226, y: -0.3152315, z: -88.27853}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: -1e-15, y: -1e-15, z: 1e-15}
-parent: {localId: 26}
+parent: {localId: 24}
 children:
-  - {localId: 38}
+  - {localId: 36}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &38
+--- !Transform &36
 name: Object_23
 guid: {a: 4778059323495101921, b: 2022106814072404108}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 37}
+parent: {localId: 35}
 children:
-  - {localId: 39}
+  - {localId: 37}
+  - {localId: 41}
+  - {localId: 42}
   - {localId: 43}
-  - {localId: 44}
-  - {localId: 45}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &39
+--- !Transform &37
 name: _rootJoint
 guid: {a: 17313292139442657680, b: 16715829675475551110}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 36}
+children:
+  - {localId: 38}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &38
+name: Joint_1_2_03
+guid: {a: 14718517784951129320, b: 11897952719200135570}
+enabled: true
+localPosition: {x: 1.421085e-14, y: -5.684342e-14, z: 1.042483e-05}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9573985, x: -0.2835017, y: -0.03774608, z: 0.03987646}
+parent: {localId: 37}
+children:
+  - {localId: 39}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &39
+name: Joint_2_2_04
+guid: {a: 8234205369618908999, b: 11195734787889255300}
+enabled: true
+localPosition: {x: 2.131628e-14, y: 2.842171e-14, z: -92.82882}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.8833342, x: -0.4687438, y: 1e-15, z: 1e-15}
 parent: {localId: 38}
 children:
   - {localId: 40}
@@ -1464,110 +1457,110 @@ mobility:
   __class: Mobility
   value: Dynamic
 --- !Transform &40
-name: Joint_1_2_03
-guid: {a: 14718517784951129320, b: 11897952719200135570}
-enabled: true
-localPosition: {x: 1.421085e-14, y: -5.684342e-14, z: 1.042483e-05}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 0.9573985, x: -0.2835017, y: -0.03774607, z: 0.03987646}
-parent: {localId: 39}
-children:
-  - {localId: 41}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &41
-name: Joint_2_2_04
-guid: {a: 8234205369618908999, b: 11195734787889255300}
-enabled: true
-localPosition: {x: 2.131628e-14, y: 2.842171e-14, z: -92.82882}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 0.8833342, x: -0.4687438, y: 1e-15, z: 1e-15}
-parent: {localId: 40}
-children:
-  - {localId: 42}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &42
 name: Joint_3_2_05
 guid: {a: 7442361461017818641, b: 6521109199507585434}
 enabled: true
 localPosition: {x: 3.552714e-14, y: 2.842171e-14, z: -106.7806}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: -1e-15, y: 1e-15, z: -1e-15}
-parent: {localId: 41}
+parent: {localId: 39}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &43
+--- !Transform &41
 name: Object_26
 guid: {a: 7227273286979704221, b: 8858292910921752480}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 38}
+parent: {localId: 36}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &44
+--- !Transform &42
 name: Object_25
 guid: {a: 17673758106045571933, b: 11791719594504798369}
 enabled: true
 localPosition: {x: -44, y: 166.1768, z: -95.66921}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 38}
+parent: {localId: 36}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &45
+--- !Transform &43
 name: Root_2
 guid: {a: 670693145475235679, b: 6081738191610574746}
 enabled: true
 localPosition: {x: 2.842171e-14, y: -5.684342e-14, z: 1.042483e-05}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: -1e-15, y: -1e-15, z: 1e-15}
-parent: {localId: 38}
+parent: {localId: 36}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &46
+--- !Transform &44
 name: REAR_LEG
 guid: {a: 22009193025212552, b: 402477341317868973}
 enabled: true
 localPosition: {x: 43.87773, y: -0.3152315, z: -88.27853}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: -1e-15, y: -1e-15, z: 1e-15}
-parent: {localId: 26}
+parent: {localId: 24}
 children:
-  - {localId: 47}
+  - {localId: 45}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &47
+--- !Transform &45
 name: Object_32
 guid: {a: 17890681793452376541, b: 12456202024761810864}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 46}
+parent: {localId: 44}
 children:
-  - {localId: 48}
-  - {localId: 53}
-  - {localId: 54}
+  - {localId: 46}
+  - {localId: 51}
+  - {localId: 52}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &48
+--- !Transform &46
 name: _rootJoint
 guid: {a: 14072040776805428740, b: 6658341662823774342}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 45}
+children:
+  - {localId: 47}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &47
+name: Root_3_06
+guid: {a: 11117776781665137017, b: 8357075308549606335}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: -1e-15, y: -1e-15, z: 1e-15}
+parent: {localId: 46}
+children:
+  - {localId: 48}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &48
+name: Joint_1_3_07
+guid: {a: 2256264347056140149, b: 10316452863660807085}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: 0.813662, x: -0.5783448, y: -0.01295597, z: 0.05747735}
 parent: {localId: 47}
 children:
   - {localId: 49}
@@ -1575,12 +1568,12 @@ mobility:
   __class: Mobility
   value: Dynamic
 --- !Transform &49
-name: Root_3_06
-guid: {a: 11117776781665137017, b: 8357075308549606335}
+name: Joint_2_3_08
+guid: {a: 9317811092477372009, b: 3061822492348962994}
 enabled: true
-localPosition: {x: 0, y: 0, z: 0}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 1, x: -1e-15, y: -1e-15, z: 1e-15}
+localPosition: {x: -2.131628e-14, y: -1.009454, z: -92.82339}
+localScale: {x: 1, y: 0.9999999, z: 0.9999999}
+localOrientation: {w: 0.7832525, x: -0.6217038, y: -1e-15, z: -1e-15}
 parent: {localId: 48}
 children:
   - {localId: 50}
@@ -1588,99 +1581,99 @@ mobility:
   __class: Mobility
   value: Dynamic
 --- !Transform &50
-name: Joint_1_3_07
-guid: {a: 2256264347056140149, b: 10316452863660807085}
-enabled: true
-localPosition: {x: 0, y: 0, z: 0}
-localScale: {x: 1, y: 0.9999999, z: 1}
-localOrientation: {w: 0.8136621, x: -0.5783447, y: -0.01295597, z: 0.05747734}
-parent: {localId: 49}
-children:
-  - {localId: 51}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &51
-name: Joint_2_3_08
-guid: {a: 9317811092477372009, b: 3061822492348962994}
-enabled: true
-localPosition: {x: -2.131628e-14, y: -1.009454, z: -92.82339}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 0.7832525, x: -0.6217037, y: -1e-15, z: -1e-15}
-parent: {localId: 50}
-children:
-  - {localId: 52}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &52
 name: Joint_3_3_09
 guid: {a: 11331605075260079319, b: 17579042041522088895}
 enabled: true
 localPosition: {x: 0, y: 3.197442e-14, z: -106.7806}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 1e-15, y: 1e-15, z: -1e-15}
-parent: {localId: 51}
+parent: {localId: 49}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &53
+--- !Transform &51
 name: Object_35
 guid: {a: 7513541276732021264, b: 17090400737805589681}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 47}
+parent: {localId: 45}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &54
+--- !Transform &52
 name: Object_34
 guid: {a: 7441579496892007326, b: 1272912771747400323}
 enabled: true
 localPosition: {x: 43.99998, y: 166.1768, z: -95.6692}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 47}
+parent: {localId: 45}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &55
+--- !Transform &53
 name: FRONT_LEG
 guid: {a: 9314432420227853668, b: 16502829027267390107}
 enabled: true
 localPosition: {x: 42.81442, y: -0.3152165, z: 89.72149}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: -1e-15, y: -1e-15, z: 1e-15}
-parent: {localId: 26}
+parent: {localId: 24}
 children:
-  - {localId: 56}
+  - {localId: 54}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &56
+--- !Transform &54
 name: Object_41
 guid: {a: 379685232494953288, b: 18311318815052440483}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 55}
+parent: {localId: 53}
 children:
-  - {localId: 57}
-  - {localId: 61}
-  - {localId: 62}
+  - {localId: 55}
+  - {localId: 59}
+  - {localId: 60}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &57
+--- !Transform &55
 name: _rootJoint
 guid: {a: 9386979156540159088, b: 4822794234063712925}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 54}
+children:
+  - {localId: 56}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &56
+name: Joint_2_4_010
+guid: {a: 15658537353223315979, b: 16481020419604752256}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9741389, x: -0.21846, y: -0.03552064, z: 0.04546381}
+parent: {localId: 55}
+children:
+  - {localId: 57}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &57
+name: Joint_3_4_011
+guid: {a: 8235267011695480325, b: 12569800701819877273}
+enabled: true
+localPosition: {x: 7.105427e-15, y: 1.421085e-14, z: -92.82885}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.8048054, x: -0.5935388, y: 1.080012e-09, z: 7.965014e-10}
 parent: {localId: 56}
 children:
   - {localId: 58}
@@ -1688,119 +1681,83 @@ mobility:
   __class: Mobility
   value: Dynamic
 --- !Transform &58
-name: Joint_2_4_010
-guid: {a: 15658537353223315979, b: 16481020419604752256}
-enabled: true
-localPosition: {x: 0, y: 0, z: 0}
-localScale: {x: 1, y: 0.9999999, z: 1}
-localOrientation: {w: 0.9741389, x: -0.21846, y: -0.03552063, z: 0.0454638}
-parent: {localId: 57}
-children:
-  - {localId: 59}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &59
-name: Joint_3_4_011
-guid: {a: 8235267011695480325, b: 12569800701819877273}
-enabled: true
-localPosition: {x: 7.105427e-15, y: 1.421085e-14, z: -92.82885}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 0.8048055, x: -0.5935387, y: 1.080012e-09, z: 7.965013e-10}
-parent: {localId: 58}
-children:
-  - {localId: 60}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &60
 name: Joint_4_012
 guid: {a: 6363020014170678780, b: 1815523511760114583}
 enabled: true
 localPosition: {x: 0, y: 2.842171e-14, z: -106.7806}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: -1e-15, y: -1e-15, z: -1e-15}
-parent: {localId: 59}
+parent: {localId: 57}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &61
+--- !Transform &59
 name: Object_44
 guid: {a: 2107880018532280680, b: 3866255349879518108}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 56}
+parent: {localId: 54}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &62
+--- !Transform &60
 name: Object_43
 guid: {a: 8669063271037296230, b: 10072621409092300419}
 enabled: true
 localPosition: {x: 42.93668, y: 166.1768, z: 82.33081}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 1e-15, y: 0, z: 0}
-parent: {localId: 56}
+parent: {localId: 54}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &63
+--- !Transform &61
 name: FRONLT_R_LEG_CONTROL
 guid: {a: 13639997525517278999, b: 15909905120670701192}
 enabled: true
 localPosition: {x: -41.80605, y: -1.346543, z: 170.7104}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: -0.3418837, x: 0.9397423, y: 0, z: 0}
-parent: {localId: 25}
+parent: {localId: 23}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &64
+--- !Transform &62
 name: FRONT_L_LEG_CONTROL
 guid: {a: 16304325955934818805, b: 9739274766837044872}
 enabled: true
 localPosition: {x: 42.52521, y: -1.167281, z: 29.77312}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: -0.4336363, x: 0.901088, y: 0, z: 0}
-parent: {localId: 25}
+parent: {localId: 23}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &65
+--- !Transform &63
 name: REAR_R_LEG_CONTROL
 guid: {a: 1677231247294217218, b: 17374972127513454761}
 enabled: true
 localPosition: {x: -44.06372, y: -1.991786, z: -158.474}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: -0.2898581, x: 0.9570696, y: 0, z: 0}
-parent: {localId: 25}
+parent: {localId: 23}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &66
+--- !Transform &64
 name: REAR_L_LEG_CONTROL
 guid: {a: 1245341853954916165, b: 16528173342063614351}
 enabled: true
 localPosition: {x: 43.58427, y: -0.8171953, z: -19.31808}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 0.5435307, x: -0.8393893, y: 0, z: 0}
-parent: {localId: 25}
+parent: {localId: 23}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &67
-name: ""
-guid: {a: 5351187160476679140, b: 8332153451700539520}
-enabled: true
-localPosition: {x: 0, y: 0, z: 0}
-localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
-mobility:
-  __class: Mobility
-  value: Dynamic
---- !Transform &68
+--- !Transform &65
 name: ""
 guid: {a: 3335583917101995627, b: 159405120249275306}
 enabled: true
@@ -1810,7 +1767,7 @@ localOrientation: {w: 1, x: 0, y: 0, z: 0}
 mobility:
   __class: Mobility
   value: Dynamic
---- !IFTransform2d &69
+--- !IFTransform2d &66
 name: ""
 guid: {a: 6938387113384794990, b: 15875918931121794747}
 enabled: true
@@ -1818,7 +1775,7 @@ localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 children:
-  - {localId: 70}
+  - {localId: 67}
 mobility:
   __class: Mobility
   value: Dynamic
@@ -1830,17 +1787,17 @@ pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
 depth: 0
---- !IFTransform2d &70
+--- !IFTransform2d &67
 name: ""
 guid: {a: 6648358327521498506, b: 430959139980378248}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 69}
+parent: {localId: 66}
 children:
-  - {localId: 71}
-  - {localId: 72}
+  - {localId: 68}
+  - {localId: 69}
 mobility:
   __class: Mobility
   value: Dynamic
@@ -1852,14 +1809,14 @@ pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
 depth: -1
---- !IFTransform2d &71
+--- !IFTransform2d &68
 name: ""
 guid: {a: 16378584558606778421, b: 6195370859293578382}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 70}
+parent: {localId: 67}
 mobility:
   __class: Mobility
   value: Dynamic
@@ -1871,14 +1828,14 @@ pivot: {x: 0.5, y: 0.5}
 flipX: false
 flipY: false
 depth: -2
---- !IFTransform2d &72
+--- !IFTransform2d &69
 name: ""
 guid: {a: 8308380622892186988, b: 17232158042074983056}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
-parent: {localId: 70}
+parent: {localId: 67}
 mobility:
   __class: Mobility
   value: Dynamic

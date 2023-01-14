@@ -1,6 +1,6 @@
 {
-	"name": "Audio Player Controller",
-	"id": "1e0b0bde-b397-ccdf-326e-e17c63adf524",
+	"name": "Audio Resource Controller",
+	"id": "0183363f-9fc6-a402-b0d4-2a63d597f826",
 	"inputs": [
 		{
 			"name": "Play",
@@ -27,13 +27,33 @@
 			"description": "Resume the audio source"
 		},
 		{
-			"name": "Audio Player",
-			"type": "AudioComponent",
-			"description": "The Audio Player (Component) you want to control",
-			"displayType": "Component"
+			"name": "Loop Amount",
+			"type": "Int",
+			"default_value": 1,
+			"range": [
+				[
+					1,
+					"inf",
+					1
+				]
+			],
+			"description": "The number of times of playing the audio source",
+			"displayType": "Number"
+		},
+		{
+			"name": "Audio Resource",
+			"description": "The audio source you want to play",
+			"type": "Audio Source",
+			"displayType": "Audio Source"
 		}
 	],
 	"outputs": [
+		{
+			"name": "Audio",
+			"type": "Audio Stream",
+			"description": "The audio source. Connect it to a speaker to play.",
+			"displayType": "Audio Stream"
+		},
 		{
 			"name": "On Play",
 			"type": "Pulse",
@@ -50,23 +70,23 @@
 			"name": "On Finish",
 			"type": "Pulse",
 			"displayType": "Exec",
-			"description": "Execute the next node when the audio source finishes playing"
+			"description": "Execute the next node when the audio source finishes playing on each loop"
 		}
 	],
 	"scriptSupport": "js",
-	"js": "CGAudioComponentController.js",
+	"js": "CGAudioController.js",
 	"category": "Audio",
-	"description": "Control the Audio Player component.",
 	"nodeEvent": [
-		"onInit",
 		"onUpdate",
 		"onEvent"
 	],
+	"description": "Connect to a speaker as an output to play and control the audio resource.",
 	"productTypes": [
 		"TTEH",
 		"InUse"
 	],
 	"builtinClass": "AudioGeneralNode",
-	"version": "1.1.0",
-	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Audio/Audio-Player-Controller"
+	"audioNodeName": "AudioControlNode",
+	"version": "2.0.0",
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Audio/Audio-Resource-Controller"
 }

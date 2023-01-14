@@ -6,11 +6,11 @@
     },
     "extraType": "ResItemMaterialOmtl",
     "name": "Scene_-_Root",
-    "objGuid": "Guid(9099880720708350113, 1399447501710829963)",
+    "objGuid": "Guid(4918388142448628461, 8139526932447793556)",
     "rttiType": "Material",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "skinObjGuid": "Guid(9819913437635999025, 16899681987376300436)"
+    "skinObjGuid": "Guid(4794368841139555171, 16622118473289847433)"
   }
 ]

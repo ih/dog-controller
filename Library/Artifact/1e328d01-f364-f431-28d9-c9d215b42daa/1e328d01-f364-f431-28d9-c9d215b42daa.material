@@ -1,12 +1,12 @@
 %YAML 1.1
 --- !Material &1
 name: Scene_-_Root
-guid: {a: 9099880720708350113, b: 1399447501710829963}
+guid: {a: 4918388142448628461, b: 8139526932447793556}
 xshader: {localId: 1, path: 1e328d01-f364-f431-28d9-c9d215b42daa--1e328d01-f364-f431-28d9-c9d215b42daa.xshader}
 properties:
   __class: PropertySheet
   name: ""
-  guid: {a: 14790934965874654023, b: 1239318136123283384}
+  guid: {a: 5135340846578701852, b: 2530349383967452094}
   floatmap:
     __class: Map
     _AmbientIntensity: 1

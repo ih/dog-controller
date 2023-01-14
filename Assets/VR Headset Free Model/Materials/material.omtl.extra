@@ -6,11 +6,11 @@
     },
     "extraType": "ResItemMaterialOmtl",
     "name": "material",
-    "objGuid": "Guid(8089747639887860089, 2406231312866330241)",
+    "objGuid": "Guid(5419595282383563049, 5899682177027280315)",
     "rttiType": "Material",
     "version": "0.1.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
-    "skinObjGuid": "Guid(18396119351691829779, 6985522472960240787)"
+    "skinObjGuid": "Guid(5546578117590913357, 696991349089327004)"
   }
 ]

@@ -1,12 +1,12 @@
 %YAML 1.1
 --- !Material &1
 name: Unlit
-guid: {a: 5063866027120297337, b: 11190565053666764709}
+guid: {a: 5424071088861845074, b: 3748581823220334990}
 xshader: {localId: 1, path: 705d4779-9b38-39da-bfca-fe971abb4332--705d4779-9b38-39da-bfca-fe971abb4332.xshader}
 properties:
   __class: PropertySheet
   name: ""
-  guid: {a: 7658070064690796664, b: 2316118805326414242}
+  guid: {a: 5584551816282907695, b: 13516980220791840416}
   floatmap:
     __class: Map
     _Rotation: 0
@@ -23,7 +23,7 @@ properties:
     __class: Map
   texmap:
     __class: Map
-    _AlbedoTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000021--00000000-0000-0000-0000-000000000021.png}
+    _AlbedoTexture: {localId: 1, path: custom://c52568f4-c881-999b-314c-3d74afe179f5}
     _OpacityTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000021--00000000-0000-0000-0000-000000000021.png}
   intmap:
     __class: Map

@@ -1,12 +1,12 @@
 %YAML 1.1
 --- !Material &1
 name: Default
-guid: {a: 5999034649282296920, b: 13288657775710974638}
+guid: {a: 4673265477742631836, b: 11788297854164825243}
 xshader: {localId: 1, path: 00000000-0000-0000-0000-00000000000c--00000000-0000-0000-0000-00000000000c.xshader}
 properties:
   __class: PropertySheet
   name: ""
-  guid: {a: 1676842943081558976, b: 2648776929020915349}
+  guid: {a: 5413248349768052878, b: 15640589686008069275}
   floatmap:
     __class: Map
     _AmbientIntensity: 1

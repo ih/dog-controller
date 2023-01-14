@@ -6,7 +6,7 @@
     },
     "extraType": "ResItemSegmentationAsset",
     "name": "Hand Segmentation Texture",
-    "objGuid": "Guid(16017539244319346322, 8235193521318466446)",
+    "objGuid": "Guid(5150621761378724375, 7564728454194429833)",
     "rttiType": "Texture2D",
     "version": "0.1.0",
     "isVisibleInInspector": true,
