@@ -6,7 +6,7 @@
     },
     "extraType": "ResItemPNGImage",
     "name": "moon-background",
-    "objGuid": "Guid(4639764024485680501, 6565218952659782293)",
+    "objGuid": "Guid(4799372910873980163, 17903945921413517452)",
     "rttiType": "Texture2D",
     "version": "0.1.0",
     "isVisibleInInspector": true,

@@ -1,12 +1,12 @@
 %YAML 1.1
 --- !Material &1
 name: Left Ear Face Inset
-guid: {a: 5620890579958870468, b: 7777461474193674908}
+guid: {a: 4854210903073643743, b: 6600147175215636413}
 xshader: {localId: 1, path: 00000000-0000-0000-0000-0000000000a1--00000000-0000-0000-0000-0000000000a1.xshader}
 properties:
   __class: PropertySheet
   name: ""
-  guid: {a: 4997355026153014433, b: 17689801143955423674}
+  guid: {a: 5669991200892478190, b: 2580753950252110725}
   floatmap:
     __class: Map
     _Rotation: 0

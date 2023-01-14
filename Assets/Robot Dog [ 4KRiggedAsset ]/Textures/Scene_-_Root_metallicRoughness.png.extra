@@ -6,7 +6,7 @@
     },
     "extraType": "ResItemPNGImage",
     "name": "Scene_-_Root_metallicRoughness",
-    "objGuid": "Guid(5267936806150385575, 7368066118282830783)",
+    "objGuid": "Guid(4900495569327765192, 10653340440283389591)",
     "rttiType": "Texture2D",
     "version": "0.1.0",
     "isVisibleInInspector": true,

@@ -1,12 +1,12 @@
 %YAML 1.1
 --- !Material &1
 name: Unlit
-guid: {a: 5674996633572144942, b: 6754142788662438023}
+guid: {a: 5052997616394654394, b: 5949714158877932986}
 xshader: {localId: 1, path: 705d4779-9b38-39da-bfca-fe971abb4332--705d4779-9b38-39da-bfca-fe971abb4332.xshader}
 properties:
   __class: PropertySheet
   name: ""
-  guid: {a: 5285624033119244145, b: 11768484281699146885}
+  guid: {a: 5319383848578902502, b: 9774769743967656613}
   floatmap:
     __class: Map
     _Rotation: 0

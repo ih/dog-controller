@@ -1008,9 +1008,9 @@ mobility:
 name: ""
 guid: {a: 15078647570650015319, b: 3298202167743571646}
 enabled: true
-localPosition: {x: 70, y: -50, z: -300}
+localPosition: {x: 70, y: -70, z: -500}
 localScale: {x: 2, y: 2, z: 2}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
+localOrientation: {w: 0.9238795, x: 0, y: -0.3826835, z: 0}
 children:
   - {localId: 6}
 mobility:
@@ -1083,8 +1083,8 @@ mobility:
 name: ""
 guid: {a: 236063023740698353, b: 5365709376602459270}
 enabled: true
-localPosition: {x: 5.302668, y: -16.31967, z: -1.727829e-06}
-localScale: {x: 5, y: 5, z: 5}
+localPosition: {x: 42.93848, y: -50, z: -99.99999}
+localScale: {x: 15, y: 15, z: 15}
 localOrientation: {w: -1.629207e-07, x: 0, y: 1, z: 0}
 children:
   - {localId: 12}
@@ -1212,7 +1212,7 @@ name: OctaneCamera
 guid: {a: 10830822801348875225, b: 15457343627836381569}
 enabled: true
 localPosition: {x: -1220.751, y: 249.7888, z: -2476.77}
-localScale: {x: 0.9999998, y: 1, z: 1}
+localScale: {x: 0.9999999, y: 1, z: 1}
 localOrientation: {w: 0.8485787, x: 0.009524133, y: -0.5287626, z: -0.01528468}
 parent: {localId: 16}
 children:
@@ -1253,8 +1253,8 @@ name: SPOT_BODY
 guid: {a: 16451351800868383977, b: 8561310175730716333}
 enabled: true
 localPosition: {x: -0.5538774, y: 150, z: 9.056977}
-localScale: {x: 1, y: 0.9999998, z: 1}
-localOrientation: {w: 0.9981332, x: 0.001465103, y: 8.962282e-05, z: -0.0610575}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9981332, x: 0.001465103, y: 8.962284e-05, z: -0.0610575}
 parent: {localId: 23}
 children:
   - {localId: 25}
@@ -1269,7 +1269,7 @@ mobility:
 name: SPOT_BODY__0
 guid: {a: 14143345821676936018, b: 424460161701130631}
 enabled: true
-localPosition: {x: 0, y: 0, z: 0}
+localPosition: {x: 0, y: 4.577637e-05, z: 6.103516e-05}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 parent: {localId: 24}
@@ -1324,7 +1324,7 @@ guid: {a: 16375948207874699821, b: 5014128289521202611}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 0.5940157, x: -0.8025156, y: -0.001230916, z: 0.05579037}
+localOrientation: {w: 0.5940158, x: -0.8025156, y: -0.001230922, z: 0.05579036}
 parent: {localId: 28}
 children:
   - {localId: 30}
@@ -1336,7 +1336,7 @@ name: Joint_2_01
 guid: {a: 12704606534474625253, b: 10502765417377681073}
 enabled: true
 localPosition: {x: -7.105427e-15, y: 1.421085e-14, z: -92.6067}
-localScale: {x: 1, y: 0.9999999, z: 0.9999999}
+localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 0.8465236, x: -0.5323511, y: 1e-15, z: 1e-15}
 parent: {localId: 29}
 children:
@@ -1436,7 +1436,7 @@ guid: {a: 14718517784951129320, b: 11897952719200135570}
 enabled: true
 localPosition: {x: 1.421085e-14, y: -5.684342e-14, z: 1.042483e-05}
 localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 0.9573985, x: -0.2835017, y: -0.03774608, z: 0.03987646}
+localOrientation: {w: 0.9573985, x: -0.2835017, y: -0.03774607, z: 0.03987646}
 parent: {localId: 37}
 children:
   - {localId: 39}
@@ -1560,7 +1560,7 @@ guid: {a: 2256264347056140149, b: 10316452863660807085}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 0.9999999, z: 1}
-localOrientation: {w: 0.813662, x: -0.5783448, y: -0.01295597, z: 0.05747735}
+localOrientation: {w: 0.8136621, x: -0.5783447, y: -0.01295597, z: 0.05747734}
 parent: {localId: 47}
 children:
   - {localId: 49}
@@ -1572,8 +1572,8 @@ name: Joint_2_3_08
 guid: {a: 9317811092477372009, b: 3061822492348962994}
 enabled: true
 localPosition: {x: -2.131628e-14, y: -1.009454, z: -92.82339}
-localScale: {x: 1, y: 0.9999999, z: 0.9999999}
-localOrientation: {w: 0.7832525, x: -0.6217038, y: -1e-15, z: -1e-15}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.7832525, x: -0.6217037, y: -1e-15, z: -1e-15}
 parent: {localId: 48}
 children:
   - {localId: 50}
@@ -1660,7 +1660,7 @@ guid: {a: 15658537353223315979, b: 16481020419604752256}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 0.9999999, z: 1}
-localOrientation: {w: 0.9741389, x: -0.21846, y: -0.03552064, z: 0.04546381}
+localOrientation: {w: 0.9741389, x: -0.21846, y: -0.03552063, z: 0.0454638}
 parent: {localId: 55}
 children:
   - {localId: 57}
@@ -1673,7 +1673,7 @@ guid: {a: 8235267011695480325, b: 12569800701819877273}
 enabled: true
 localPosition: {x: 7.105427e-15, y: 1.421085e-14, z: -92.82885}
 localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 0.8048054, x: -0.5935388, y: 1.080012e-09, z: 7.965014e-10}
+localOrientation: {w: 0.8048055, x: -0.5935387, y: 1.080012e-09, z: 7.965013e-10}
 parent: {localId: 56}
 children:
   - {localId: 58}

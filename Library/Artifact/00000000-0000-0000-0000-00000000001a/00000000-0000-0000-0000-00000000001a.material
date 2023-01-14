@@ -1,12 +1,12 @@
 %YAML 1.1
 --- !Material &1
 name: Whole Face Face Inset
-guid: {a: 5452464078700950335, b: 16501337363083885227}
+guid: {a: 5734935808831489046, b: 10018900531836037050}
 xshader: {localId: 1, path: 00000000-0000-0000-0000-00000000001a--00000000-0000-0000-0000-00000000001a.xshader}
 properties:
   __class: PropertySheet
   name: ""
-  guid: {a: 5642573575723952511, b: 6810766296333654422}
+  guid: {a: 5526023008978046789, b: 10421301870848157611}
   floatmap:
     __class: Map
     _Rotation: 0

@@ -201,14 +201,14 @@
     "name": "Transform",
     "eulerAngle": [
       0,
-      0,
+      -45,
       0
     ],
     "rotation": [
       0,
+      -0.3826834559440613,
       0,
-      0,
-      1
+      0.9238795042037964
     ],
     "rttiType": "Transform",
     "version": "0.1.0",
@@ -770,7 +770,7 @@
     "isVisibleInInspector": true,
     "hideInPanel": false,
     "displayKey": "Transform",
-    "expanded": true,
+    "expanded": false,
     "editable": true
   },
   {
