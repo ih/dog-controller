@@ -6,7 +6,7 @@
     },
     "extraType": "ResItemPNGImage",
     "name": "material_metallicRoughness",
-    "objGuid": "Guid(1315668504305304505, 1886424541744865956)",
+    "objGuid": "Guid(1244881861636205283, 7226500016132839085)",
     "rttiType": "Texture2D",
     "version": "0.1.0",
     "isVisibleInInspector": true,

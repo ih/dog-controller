@@ -79,24 +79,6 @@ entities:
           value: Lux
     layer: 0
   - __class: Entity
-    name: Hand Tracker
-    guid: {a: 5136262709087876458, b: 6696838243025980598}
-    scene: {localId: 1}
-    selfvisible: true
-    components:
-      - {localId: 5}
-      - __class: JSScriptComponent
-        name: ""
-        guid: {a: 11042849762536003477, b: 7107485775254538651}
-        enabled: true
-        path: js/HandCapture.js
-        properties:
-          __class: Map
-          distanceToScreen: 20
-          handAnchor: 0
-          rotateAxisZ: false
-    layer: 0
-  - __class: Entity
     name: Sphere
     guid: {a: 6147029199889314504, b: 2373329409270439814}
     scene: {localId: 1}
@@ -119,6 +101,29 @@ entities:
         entirePingPong: false
         mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000001}
         castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Audio Player
+    guid: {a: 8235667433872204950, b: 2187388130434253207}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 67}
+      - __class: JSScriptComponent
+        name: AudioComponent
+        guid: {a: 14790922547364385703, b: 15541442348740470156}
+        enabled: true
+        path: js/AudioComponent.js
+        properties:
+          __class: Map
+          autoPlay: false
+          duration: 1567
+          isPreview: true
+          loopAmount: 1
+          mute: false
+          playMode: Once
+          resPath: audio/8b541da9-3ee3-892d-036c-a63cc220bbe6.mp3
+          volume: 100
     layer: 0
   - __class: Entity
     name: VR Headset Free Model
@@ -796,6 +801,189 @@ entities:
     components:
       - {localId: 66}
     layer: 0
+  - __class: Entity
+    name: 2D Background Camera
+    guid: {a: 4561842325762603478, b: 2031887388512750003}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 68}
+      - __class: Camera
+        name: ""
+        guid: {a: 12844801103767575591, b: 739273861086767507}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [4, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: ORTHO
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        orthoScale: 1
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+    layer: 2
+  - __class: Entity
+    name: Segmentation Canvas
+    guid: {a: 2904474258206675101, b: 14933571400320360108}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 69}
+      - __class: IFLayer2d
+        name: ""
+        guid: {a: 3480748052330937595, b: 3992514799963553155}
+        enabled: true
+        sortingOrder: 7
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        renderOrderMode:
+          __class: IFLayer2dRenderOrderMode
+          value: SceneCustom
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        blendAlpha: 1
+        blendAlphaCkeck: true
+        drawCallNum: 2
+        maskType:
+          __class: IFMaskType
+          value: None
+        inverted: false
+        scissorRectMask: false
+        updateFlag: false
+        updateSortFlag: false
+      - __class: IFCanvas2d
+        name: ""
+        guid: {a: 14719497234616081899, b: 1873026863878008714}
+        enabled: true
+        resolutionType:
+          __class: IFResolutionType
+          value: FitHeight
+        resolutionSize: {x: 720, y: 1280}
+    layer: 2
+  - __class: Entity
+    name: Portrait Segmentation
+    guid: {a: 16951742413093159064, b: 2663623018309503648}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 70}
+    layer: 2
+  - __class: Entity
+    name: Portrait
+    guid: {a: 3694019890025367507, b: 10911196601349062543}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 71}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 7584258196120673598, b: 2669253975240545163}
+        enabled: true
+        alpha: 1
+        cascadeAlphaEnabled: false
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: custom://def48005-e1aa-c304-a537-57fecf469679}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+    layer: 2
+  - __class: Entity
+    name: Background
+    guid: {a: 9171368192122493858, b: 16779509519587888800}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 72}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 10323648713411390607, b: 13991915582773005967}
+        enabled: true
+        alpha: 1
+        cascadeAlphaEnabled: false
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: 998af57b-a839-af9e-6e0c-17c1de640368--998af57b-a839-af9e-6e0c-17c1de640368.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 288
+        ellipseY: 512
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+    layer: 2
 visible: true
 config:
   __class: Map
@@ -829,16 +1017,6 @@ localOrientation: {w: 0.6123723, x: -0.3535534, y: -0.6123725, z: -0.3535534}
 mobility:
   __class: Mobility
   value: Dynamic
---- !Transform &4
-name: ""
-guid: {a: 14217730638063602383, b: 12756008134374837667}
-enabled: true
-localPosition: {x: 0, y: -10, z: 0}
-localScale: {x: 0.5, y: 0.5, z: 0.5}
-localOrientation: {w: 1, x: 0, y: 0, z: 0}
-mobility:
-  __class: Mobility
-  value: Dynamic
 --- !Transform &5
 name: ""
 guid: {a: 2904245334805155805, b: 15883466900902509211}
@@ -863,7 +1041,7 @@ mobility:
 name: ""
 guid: {a: 15078647570650015319, b: 3298202167743571646}
 enabled: true
-localPosition: {x: 0, y: -10, z: -300}
+localPosition: {x: 70, y: -50, z: -300}
 localScale: {x: 2, y: 2, z: 2}
 localOrientation: {w: 1, x: 0, y: 0, z: 0}
 children:
@@ -938,8 +1116,8 @@ mobility:
 name: ""
 guid: {a: 236063023740698353, b: 5365709376602459270}
 enabled: true
-localPosition: {x: 0, y: -10, z: 0}
-localScale: {x: 10, y: 10, z: 10}
+localPosition: {x: 5.302668, y: -16.31967, z: -1.727829e-06}
+localScale: {x: 5, y: 5, z: 5}
 localOrientation: {w: -1.629207e-07, x: 0, y: 1, z: 0}
 children:
   - {localId: 14}
@@ -1067,8 +1245,8 @@ name: OctaneCamera
 guid: {a: 10830822801348875225, b: 15457343627836381569}
 enabled: true
 localPosition: {x: -1220.751, y: 249.7888, z: -2476.77}
-localScale: {x: 0.9999998, y: 1, z: 1}
-localOrientation: {w: 0.8485787, x: 0.009524112, y: -0.5287626, z: -0.01528465}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.8485787, x: 0.009524133, y: -0.5287626, z: -0.01528468}
 parent: {localId: 18}
 children:
   - {localId: 24}
@@ -1108,8 +1286,8 @@ name: SPOT_BODY
 guid: {a: 16451351800868383977, b: 8561310175730716333}
 enabled: true
 localPosition: {x: -0.5538774, y: 150, z: 9.056977}
-localScale: {x: 1, y: 0.9999998, z: 1}
-localOrientation: {w: 0.9981332, x: 0.001465103, y: 8.962283e-05, z: -0.06105751}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9981332, x: 0.001465103, y: 8.962284e-05, z: -0.0610575}
 parent: {localId: 25}
 children:
   - {localId: 27}
@@ -1179,7 +1357,7 @@ guid: {a: 16375948207874699821, b: 5014128289521202611}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 0.5940157, x: -0.8025156, y: -0.001230909, z: 0.05579038}
+localOrientation: {w: 0.5940158, x: -0.8025156, y: -0.001230922, z: 0.05579036}
 parent: {localId: 30}
 children:
   - {localId: 32}
@@ -1190,7 +1368,7 @@ mobility:
 name: Joint_2_01
 guid: {a: 12704606534474625253, b: 10502765417377681073}
 enabled: true
-localPosition: {x: 0, y: 4.263256e-14, z: -92.6067}
+localPosition: {x: -7.105427e-15, y: 1.421085e-14, z: -92.6067}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 0.8465236, x: -0.5323511, y: 1e-15, z: 1e-15}
 parent: {localId: 31}
@@ -1289,9 +1467,9 @@ mobility:
 name: Joint_1_2_03
 guid: {a: 14718517784951129320, b: 11897952719200135570}
 enabled: true
-localPosition: {x: 2.842171e-14, y: -5.684342e-14, z: 1.042483e-05}
+localPosition: {x: 1.421085e-14, y: -5.684342e-14, z: 1.042483e-05}
 localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 0.9573985, x: -0.2835017, y: -0.03774608, z: 0.03987646}
+localOrientation: {w: 0.9573985, x: -0.2835017, y: -0.03774607, z: 0.03987646}
 parent: {localId: 39}
 children:
   - {localId: 41}
@@ -1302,9 +1480,9 @@ mobility:
 name: Joint_2_2_04
 guid: {a: 8234205369618908999, b: 11195734787889255300}
 enabled: true
-localPosition: {x: 3.552714e-14, y: 0, z: -92.82882}
+localPosition: {x: 2.131628e-14, y: 2.842171e-14, z: -92.82882}
 localScale: {x: 1, y: 1, z: 1}
-localOrientation: {w: 0.8833342, x: -0.4687438, y: -1e-15, z: 1e-15}
+localOrientation: {w: 0.8833342, x: -0.4687438, y: 1e-15, z: 1e-15}
 parent: {localId: 40}
 children:
   - {localId: 42}
@@ -1415,7 +1593,7 @@ guid: {a: 2256264347056140149, b: 10316452863660807085}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 0.9999999, z: 1}
-localOrientation: {w: 0.8136621, x: -0.5783448, y: -0.01295597, z: 0.05747735}
+localOrientation: {w: 0.8136621, x: -0.5783447, y: -0.01295597, z: 0.05747734}
 parent: {localId: 49}
 children:
   - {localId: 51}
@@ -1426,7 +1604,7 @@ mobility:
 name: Joint_2_3_08
 guid: {a: 9317811092477372009, b: 3061822492348962994}
 enabled: true
-localPosition: {x: -1.421085e-14, y: -1.009454, z: -92.82339}
+localPosition: {x: -2.131628e-14, y: -1.009454, z: -92.82339}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 0.7832525, x: -0.6217037, y: -1e-15, z: -1e-15}
 parent: {localId: 50}
@@ -1515,7 +1693,7 @@ guid: {a: 15658537353223315979, b: 16481020419604752256}
 enabled: true
 localPosition: {x: 0, y: 0, z: 0}
 localScale: {x: 1, y: 0.9999999, z: 1}
-localOrientation: {w: 0.9741389, x: -0.2184601, y: -0.03552064, z: 0.04546382}
+localOrientation: {w: 0.9741389, x: -0.21846, y: -0.03552063, z: 0.0454638}
 parent: {localId: 57}
 children:
   - {localId: 59}
@@ -1526,7 +1704,7 @@ mobility:
 name: Joint_3_4_011
 guid: {a: 8235267011695480325, b: 12569800701819877273}
 enabled: true
-localPosition: {x: 0, y: 4.263256e-14, z: -92.82885}
+localPosition: {x: 7.105427e-15, y: 1.421085e-14, z: -92.82885}
 localScale: {x: 1, y: 1, z: 1}
 localOrientation: {w: 0.8048055, x: -0.5935387, y: 1.080012e-09, z: 7.965013e-10}
 parent: {localId: 58}
@@ -1612,3 +1790,103 @@ parent: {localId: 25}
 mobility:
   __class: Mobility
   value: Dynamic
+--- !Transform &67
+name: ""
+guid: {a: 5351187160476679140, b: 8332153451700539520}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &68
+name: ""
+guid: {a: 3335583917101995627, b: 159405120249275306}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !IFTransform2d &69
+name: ""
+guid: {a: 6938387113384794990, b: 15875918931121794747}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 70}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 0, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: 0
+--- !IFTransform2d &70
+name: ""
+guid: {a: 6648358327521498506, b: 430959139980378248}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 69}
+children:
+  - {localId: 71}
+  - {localId: 72}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 0, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -1
+--- !IFTransform2d &71
+name: ""
+guid: {a: 16378584558606778421, b: 6195370859293578382}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 70}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 0, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -2
+--- !IFTransform2d &72
+name: ""
+guid: {a: 8308380622892186988, b: 17232158042074983056}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 70}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 0, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 900, y: 1300}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -3

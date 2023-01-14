@@ -6,7 +6,7 @@
     },
     "extraType": "ResItemPNGImage",
     "name": "Scene_-_Root_baseColor",
-    "objGuid": "Guid(17964119197791381454, 14781328610185606580)",
+    "objGuid": "Guid(11622129431227767330, 5326150045979697304)",
     "rttiType": "Texture2D",
     "version": "0.1.0",
     "isVisibleInInspector": true,

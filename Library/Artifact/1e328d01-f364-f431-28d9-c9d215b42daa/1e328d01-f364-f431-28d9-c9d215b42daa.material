@@ -1,12 +1,12 @@
 %YAML 1.1
 --- !Material &1
 name: Scene_-_Root
-guid: {a: 4561765584849487422, b: 8268032753240238990}
+guid: {a: 9099880720708350113, b: 1399447501710829963}
 xshader: {localId: 1, path: 1e328d01-f364-f431-28d9-c9d215b42daa--1e328d01-f364-f431-28d9-c9d215b42daa.xshader}
 properties:
   __class: PropertySheet
   name: ""
-  guid: {a: 1101483076001793559, b: 1396154826744417928}
+  guid: {a: 14790934965874654023, b: 1239318136123283384}
   floatmap:
     __class: Map
     _AmbientIntensity: 1
@@ -31,11 +31,11 @@ properties:
     __class: Map
   texmap:
     __class: Map
-    _AlbedoTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000021--00000000-0000-0000-0000-000000000021.png}
+    _AlbedoTexture: {localId: 1, path: 56f706bb-0a3f-769b-6c07-44083cd0de72--56f706bb-0a3f-769b-6c07-44083cd0de72.png}
     _AmbientTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000020--00000000-0000-0000-0000-000000000020.png}
     _EmissiveTexture: {localId: 1, path: 00000000-0000-0000-0000-00000000001c--00000000-0000-0000-0000-00000000001c.png}
     _MRAOTexture: {localId: 1, path: 00000000-0000-0000-0000-00000000001c--00000000-0000-0000-0000-00000000001c.png}
-    _NormalTexture: {localId: 1, path: 00000000-0000-0000-0000-00000000001f--00000000-0000-0000-0000-00000000001f.png}
+    _NormalTexture: {localId: 1, path: 21df1886-7e43-4cff-eb92-d8246f0da858--21df1886-7e43-4cff-eb92-d8246f0da858.png}
     _OpacityTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000021--00000000-0000-0000-0000-000000000021.png}
   intmap:
     __class: Map

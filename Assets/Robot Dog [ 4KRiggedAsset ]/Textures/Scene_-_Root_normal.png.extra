@@ -6,7 +6,7 @@
     },
     "extraType": "ResItemPNGImage",
     "name": "Scene_-_Root_normal",
-    "objGuid": "Guid(6288589359240889829, 15186857263517801373)",
+    "objGuid": "Guid(16233911270966128122, 8534422478205992895)",
     "rttiType": "Texture2D",
     "version": "0.1.0",
     "isVisibleInInspector": true,

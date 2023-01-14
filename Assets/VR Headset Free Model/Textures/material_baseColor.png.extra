@@ -6,7 +6,7 @@
     },
     "extraType": "ResItemPNGImage",
     "name": "material_baseColor",
-    "objGuid": "Guid(2759129733011879454, 1107516232521561231)",
+    "objGuid": "Guid(16162946439549867926, 12855323223098741399)",
     "rttiType": "Texture2D",
     "version": "0.1.0",
     "isVisibleInInspector": true,
